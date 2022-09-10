@@ -35,21 +35,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Nossos
                     <br />
-                    Material Kit
+                    Serviços
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description=""
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Descubra mais"
+                description="Reconhecer é dar valor e possibilidades quase infinitas para compor e se emocionar. Por isso, criamos um mundo onde reconhecemos tendência, design, estilo e gente."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Ver todos os serviços",
                 }}
               />
             </RotatingCard>
@@ -58,33 +58,32 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="kitchen"
+                  title="Cozinhas"
+                  description="Com uma cozinha planejada você aproveita 100% do espaço, trazendo mais organização, praticidade e agilidade na hora de ocupar este cômodo."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="weekend"
+                  title="Sala de estar"
+                  description="Sendo a sala de estar o principal ambiente de nossas casas, é importante mantê-lo o mais confortável e aconchegante possível!"
                 />
               </Grid>
             </Grid>
-            <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
+            <Grid container spacing={3} sx={{ mt: { xs: 0, md: 3 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="bedroomparent"
+                  title="Quartos"
+                  description="Aproveite mais às suas noites em um quarto que você mesmo idealizou e construiu. Os melhores materiais para a confecção de quarto é com a Dona Casa Móveis Planejados!"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="shower"
+                  title="Banheiros"
+                  description="Os projetos sob medida são pensados, principalmente, para um melhor aproveitamento do espaço."
                 />
               </Grid>
             </Grid>

@@ -33,7 +33,7 @@
 import Icon from "@mui/material/Icon";
 
 // @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
@@ -63,7 +63,7 @@ import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "pages",
+    name: "Páginas",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
@@ -258,9 +258,9 @@ const routes = [
     ],
   },
   {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
+    name: "Instagram",
+    icon: <InstagramIcon />,
+    href: "https://www.instagram.com/bellaarte_planejados/",
   },
 ];
 
