@@ -471,6 +471,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             shadow="md"
             width="45px"
             position="relative"
+            mr={1}
           />
 
           <MKBox
