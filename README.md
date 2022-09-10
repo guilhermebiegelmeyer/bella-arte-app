@@ -1,8 +1,8 @@
-## Front com React.js
+## Front with React.js
 
-- Construido apenas interface
+- Static Website
 
-## Como rodar
+## How to start
 
 ```
 npm i
