@@ -7,15 +7,15 @@
 */
 
 /**
- * The base box-shadow styles for the Material Kit 2 React.
+ * The base box-shadow styles for the Bella Arte Planejados.
  * You can add new box-shadow using this file.
- * You can customized the box-shadow for the entire Material Kit 2 React using thie file.
+ * You can customized the box-shadow for the entire Bella Arte Planejados using thie file.
  */
 
-// Material Kit 2 React Base Styles
+// Bella Arte Planejados Base Styles
 import colors from "assets/theme/base/colors";
 
-// Material Kit 2 React Helper Functions
+// Bella Arte Planejados Helper Functions
 import boxShadow from "assets/theme/functions/boxShadow";
 
 const { black, white, tabs, coloredShadows } = colors;

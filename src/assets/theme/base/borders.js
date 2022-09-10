@@ -7,15 +7,15 @@
 */
 
 /**
- * The base border styles for the Material Kit 2 React.
+ * The base border styles for the Bella Arte Planejados.
  * You can add new border width, border color or border radius using this file.
- * You can customized the borders value for the entire Material Kit 2 React using thie file.
+ * You can customized the borders value for the entire Bella Arte Planejados using thie file.
  */
 
-// Material Kit 2 React Base Styles
+// Bella Arte Planejados Base Styles
 import colors from "assets/theme/base/colors";
 
-// Material Kit 2 React Helper Functions
+// Bella Arte Planejados Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { grey } = colors;

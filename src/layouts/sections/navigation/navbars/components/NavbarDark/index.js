@@ -7,10 +7,10 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Bella Arte Planejados examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes

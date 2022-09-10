@@ -15,7 +15,7 @@ import Icon from "@mui/material/Icon";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 

@@ -6,7 +6,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Kit 2 React pages
+// Bella Arte Planejados pages
 import Author from "pages/LandingPages/Author";
 
 export default function AuthorPage() {

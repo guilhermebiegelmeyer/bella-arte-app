@@ -16,7 +16,7 @@ import PropTypes from "prop-types";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 

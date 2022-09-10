@@ -7,9 +7,9 @@
 */
 
 /**
- * The base colors for the Material Kit 2 React.
+ * The base colors for the Bella Arte Planejados.
  * You can add new color using this file.
- * You can customized the colors for the entire Material Kit 2 React using thie file.
+ * You can customized the colors for the entire Bella Arte Planejados using thie file.
  */
 
 export default {

@@ -1,7 +1,7 @@
-const navbarDarkCode = `// Material Kit 2 React components
+const navbarDarkCode = `// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Bella Arte Planejados examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes

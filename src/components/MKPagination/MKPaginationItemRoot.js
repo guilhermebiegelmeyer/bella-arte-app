@@ -9,7 +9,7 @@
 // @mui material components
 import { styled } from "@mui/material/styles";
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKButton from "components/MKButton";
 
 export default styled(MKButton)(({ theme, ownerState }) => {

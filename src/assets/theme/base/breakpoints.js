@@ -7,9 +7,9 @@
 */
 
 /**
- * The base breakpoints for the Material Kit 2 React.
+ * The base breakpoints for the Bella Arte Planejados.
  * You can add new breakpoints using this file.
- * You can customized the breakpoints for the entire Material Kit 2 React using thie file.
+ * You can customized the breakpoints for the entire Bella Arte Planejados using thie file.
  */
 
 export default {

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.0.0
+* Bella Arte Planejados - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-react
@@ -24,7 +24,7 @@ import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 import MuiLink from "@mui/material/Link";
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 

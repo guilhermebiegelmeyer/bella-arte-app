@@ -6,12 +6,12 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Kit 2 React Base Styles
+// Bella Arte Planejados Base Styles
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 import typography from "assets/theme/base/typography";
 
-// Material Kit 2 React helper functions
+// Bella Arte Planejados helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { inputBorderColor, info, grey, transparent } = colors;

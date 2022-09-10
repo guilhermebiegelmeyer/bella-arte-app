@@ -9,10 +9,10 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
+// Bella Arte Planejados components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Bella Arte Planejados examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
