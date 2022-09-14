@@ -33,9 +33,9 @@ function ContactUs() {
         <DefaultNavbar
           routes={routes}
           action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            type: "internal",
+            route: "/pages/landing-pages/contact-us",
+            label: "Contato",
             color: "info",
           }}
         />
@@ -91,7 +91,7 @@ function ContactUs() {
                 For further questions, including partnership opportunities, please email
                 hello@creative-tim.com or contact using our contact form.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autocomplete="off">
+              <MKBox width="100%" component="form" method="post">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput

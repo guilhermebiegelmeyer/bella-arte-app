@@ -6,14 +6,14 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+import logoPB from "assets/images/logos/logo-pb.jpg";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
     name: "Bella Arte Planejados",
-    image: logoCT,
+    image: logoPB,
     route: "/",
   },
   socials: [
@@ -39,19 +39,18 @@ export default {
       name: "Entre em contato",
       items: [{ name: "contato", href: "#" }],
     },
-    {
-      name: "Politicas e Privacidade",
-      items: [
-        { name: "terms & conditions", href: "#" },
-        { name: "privacy policy", href: "#" },
-        { name: "licenses (EULA)", href: "#" },
-      ],
-    },
+    // {
+    //   name: "Politicas e Privacidade",
+    //   items: [
+    //     { name: "terms & conditions", href: "#" },
+    //     { name: "privacy policy", href: "#" },
+    //     { name: "licenses (EULA)", href: "#" },
+    //   ],
+    // },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      Todos os direitos reservados. Copyright &copy; {date} | Desenvolvido por Guilherme
-      Biegelmeyer.
+      Todos os direitos reservados. Copyright &copy; {date}
     </MKTypography>
   ),
 };
