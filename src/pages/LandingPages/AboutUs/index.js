@@ -14,7 +14,7 @@ import Card from "@mui/material/Card";
 // Bella Arte Planejados components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+// import MKButton from "components/MKButton";
 
 // Bella Arte Planejados examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/quem_somos/quem_somos.png";
 
 function AboutUs() {
   return (
@@ -82,17 +82,19 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              Quem somos
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
-            </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+            {/* <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
+              Fundada em 2022, a Bella Arte Planejados surgiu preparada para proporcionar um
+              atendimento diferenciado e ágil. Junto de uma equipe de profissionais qualificados,
+              proporcionamos à sua casa excelência em móveis planejados para você e sua família
+              aproveitarem de um ambiente renovado e confortável.
+            </MKTypography> */}
+            {/* <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
-            </MKButton>
+            </MKButton> */}
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
-              Find us on
+              Siga-nos
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
