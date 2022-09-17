@@ -30,10 +30,13 @@
 */
 
 // @mui material components
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 
 // @mui icons
 import InstagramIcon from "@mui/icons-material/Instagram";
+import SupervisionIcon from "@mui/icons-material/SupervisorAccount";
+import DesignServicesIcon from "@mui/icons-material/DesignServices";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
@@ -63,47 +66,25 @@ import Author from "layouts/pages/landing-pages/author";
 
 const routes = [
   {
-    name: "Páginas",
-    icon: <Icon>dashboard</Icon>,
-    columns: 1,
-    rowsPerColumn: 2,
-    collapse: [
-      {
-        name: "Conteúdos",
-        collapse: [
-          {
-            name: "Sobre nós",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Serviços",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
-          {
-            name: "Contato",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
-          },
-          // {
-          //   name: "author",
-          //   route: "/pages/landing-pages/author",
-          //   component: <Author />,
-          // },
-        ],
-      },
-      // {
-      //   name: "account",
-      //   collapse: [
-      //     {
-      //       name: "sign in",
-      //       route: "/pages/authentication/sign-in",
-      //       component: <SignIn />,
-      //     },
-      //   ],
-      // },
-    ],
+    name: "Sobre nós",
+    icon: <SupervisionIcon />,
+    route: "/pages/landing-pages/about-us",
+    component: <AboutUs />,
+    key: "aboutUs",
+  },
+  {
+    name: "Serviços",
+    icon: <DesignServicesIcon />,
+    route: "/pages/landing-pages/author",
+    component: <Author />,
+    key: "designServices",
+  },
+  {
+    name: "Contato",
+    icon: <ContactPageIcon />,
+    route: "/pages/landing-pages/contact-us",
+    component: <ContactUs />,
+    key: "contactUs",
   },
   // {
   //   name: "sections",
