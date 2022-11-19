@@ -23,7 +23,7 @@ function Information() {
     <MKBox component="section" py={4}>
       <Container>
         <Grid container spacing={3} alignItems="center">
-          <Grid item xs={12} lg={12} ml={10} mr={10}>
+          <Grid item sx={{ p: 0, m: 0 }} xs={12} lg={12} ml={10} mr={10}>
             <Grid container justifyContent="flex-start">
               <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
                 Fundada em 2022, a Bella Arte Planejados surgiu preparada para proporcionar um
