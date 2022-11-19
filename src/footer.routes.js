@@ -29,15 +29,11 @@ export default {
   menus: [
     {
       name: "Empresa",
-      items: [{ name: "Sobre nós", href: "https://www.creative-tim.com/presentation" }],
-    },
-    {
-      name: "Portfólio",
-      items: [{ name: "Serviços", href: "#" }],
+      items: [{ name: "Sobre nós", route: "/pages/landing-pages/about-us" }],
     },
     {
       name: "Entre em contato",
-      items: [{ name: "contato", href: "#" }],
+      items: [{ name: "contato", href: "https://wa.me/5551997021790" }],
     },
     // {
     //   name: "Politicas e Privacidade",
