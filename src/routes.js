@@ -35,13 +35,13 @@
 // @mui icons
 import InstagramIcon from "@mui/icons-material/Instagram";
 import SupervisionIcon from "@mui/icons-material/SupervisorAccount";
-import DesignServicesIcon from "@mui/icons-material/DesignServices";
-import ContactPageIcon from "@mui/icons-material/ContactPage";
+// import DesignServicesIcon from "@mui/icons-material/DesignServices";
+// import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
-import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
+// import ContactUs from "layouts/pages/landing-pages/contact-us";
+// import Author from "layouts/pages/landing-pages/author";
 // import SignIn from "layouts/pages/authentication/sign-in";
 
 // // Sections
@@ -72,20 +72,13 @@ const routes = [
     component: <AboutUs />,
     key: "aboutUs",
   },
-  {
-    name: "Serviços",
-    icon: <DesignServicesIcon />,
-    route: "/pages/landing-pages/author",
-    component: <Author />,
-    key: "designServices",
-  },
-  {
-    name: "Contato",
-    icon: <ContactPageIcon />,
-    route: "/pages/landing-pages/contact-us",
-    component: <ContactUs />,
-    key: "contactUs",
-  },
+  // {
+  //   name: "Serviços",
+  //   icon: <DesignServicesIcon />,
+  //   route: "/pages/landing-pages/author",
+  //   component: <Author />,
+  //   key: "designServices",
+  // },
   // {
   //   name: "sections",
   //   icon: <Icon>view_day</Icon>,

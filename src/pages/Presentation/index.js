@@ -45,8 +45,8 @@ function Presentation() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "internal",
-          route: "/pages/landing-pages/contact-us",
+          type: "external",
+          route: "https://wa.me/5551997021790",
           label: "Contato",
           color: "info",
         }}
