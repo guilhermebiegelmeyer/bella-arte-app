@@ -7,7 +7,7 @@
 */
 
 // Bella Arte Planejados pages
-import AboutUs from "pages/LandingPages/AboutUs";
+import AboutUs from "pages/AboutUs";
 
 export default function AboutUsPage() {
   return <AboutUs />;

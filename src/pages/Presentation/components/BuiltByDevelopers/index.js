@@ -54,7 +54,7 @@ function BuiltByDevelopers() {
           </MKTypography>
           <MKTypography
             component="a"
-            href="/pages/landing-pages/about-us"
+            href="/sobre-nos"
             rel="noreferrer"
             variant="body2"
             color="white"

@@ -29,7 +29,7 @@ export default {
   menus: [
     {
       name: "Empresa",
-      items: [{ name: "Sobre nós", route: "/pages/landing-pages/about-us" }],
+      items: [{ name: "Sobre nós", route: "/sobre-nos" }],
     },
     {
       name: "Entre em contato",

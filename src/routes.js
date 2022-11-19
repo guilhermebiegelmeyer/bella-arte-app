@@ -68,7 +68,7 @@ const routes = [
   {
     name: "Sobre nós",
     icon: <SupervisionIcon />,
-    route: "/pages/landing-pages/about-us",
+    route: "/sobre-nos",
     component: <AboutUs />,
     key: "aboutUs",
   },

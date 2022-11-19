@@ -18,8 +18,8 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/quem_somos/cristina.png";
-import team2 from "assets/images/quem_somos/julia.png";
+import team1 from "assets/images/cristina.png";
+import team2 from "assets/images/julia.png";
 
 function Team() {
   return (
