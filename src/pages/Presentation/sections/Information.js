@@ -47,8 +47,8 @@ function Information() {
                 title="Descubra mais"
                 description="Reconhecer é dar valor e possibilidades quase infinitas para compor e se emocionar. Por isso, criamos um mundo onde reconhecemos tendência, design, estilo e gente."
                 action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
+                  type: "external",
+                  route: "https://www.instagram.com/bellaarte_planejados",
                   label: "Ver todos os serviços",
                 }}
               />
